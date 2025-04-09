@@ -1,14 +1,16 @@
+
 {
-  "name": "nodejs-app",
+  "name": "webrtc-signaling-server",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
+  "description": "WebSocket server for WebRTC signaling",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
